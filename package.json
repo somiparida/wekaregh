@@ -1,0 +1,13 @@
+{
+  "name": "WeKare",
+  "version": "1.0",
+  "license": "MIT",
+  "description": "New Package.",
+  "scripts": {
+    "docs": "cd docs && gitbook serve",
+    "docs:deploy": "bash ./deploy-docs.sh"
+  },
+  "devDependencies": {
+    "vue-cli": "^2.8.1"
+  }
+}
