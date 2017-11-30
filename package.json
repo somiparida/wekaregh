@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "New Package.",
+  "private": true,
   "scripts": {
-    "docs": "cd docs && gitbook serve",
-    "docs:deploy": "bash ./deploy-docs.sh"
+   "postinstall": "npm install express"
   },
   "devDependencies": {
     "vue-cli": "^2.8.1"
